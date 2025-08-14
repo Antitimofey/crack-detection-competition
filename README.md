@@ -14,4 +14,24 @@ The goal is desine, build and programm mobile robot for build inspections. Funct
 
 
 # Hardware: robot construction
-some text...
+## 
+
+# Software:
+For detection and classification concreate defects we trained *YOLO-v8 model*. All pipeline described below:
+- Raspberry Pi 5 compress image from robot camera and transmit it to server.
+- Server process received image.
+- In case of defects on image, server crop it and sent when with according messange to building controllers using telegramm API.
+- 
+
+
+
+## High-Level Software
+
+
+
+
+
+
+
+
+
